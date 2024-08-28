@@ -1,0 +1,29 @@
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem; /* Space between the cards */
+	justify-content: center; /* Center the cards horizontally */
+}
+
+.card {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 1rem;
+	width: 150px;
+	text-align: center;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+}
+
+.avatar-img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	margin-bottom: 0.5rem;
+}
+
+p {
+	margin: 0;
+	font-size: 1rem;
+	font-weight: bold;
+}
